@@ -1,0 +1,43 @@
+body {
+    min-height: 100vh;
+    max-width: 1024px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: hsl(0, 0%, 96%);
+    color: #333;
+}
+
+header, section,footer {
+    padding: 20px;
+    margin: 20px;
+    background: white;
+    border-radius: 8px;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+a {
+    color: #0056b3;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+.certificates{
+    display: flex;
+    padding-right: 10px;
+}
